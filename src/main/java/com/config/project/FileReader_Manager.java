@@ -13,12 +13,6 @@ private FileReader_Manager() {
 
 	}
 	
-	
-	
-	
-	
-	
-	
 	public Configuration_Reader getInstanceCR() throws IOException {
 	Configuration_Reader reader = new Configuration_Reader();
 	return reader;

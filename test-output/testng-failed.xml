@@ -3,12 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.features.Time_Out">
+      <class name="com.TestNG.Convert_Testng$Covert">
         <methods>
-          <include name="browser"/>
-          <include name="login"/>
+          <include name="SignIn"/>
+          <include name="test_ending"/>
+          <include name="Confirmation"/>
+          <include name="Close"/>
+          <include name="test_starting"/>
         </methods>
-      </class> <!-- com.testng.features.Time_Out -->
+      </class> <!-- com.TestNG.Convert_Testng$Covert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

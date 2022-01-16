@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
-    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -49,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--2038316039\testng-customsuite.xml</span>
+                    <span>C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-2072705016\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.features.Dataprovider_Test" hash-for-method="userdetails(abc, 123)">userdetails(abc, 123)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.TestNG.Convert_Testng$Covert" hash-for-method="Confirmation">Confirmation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testng.features.Dataprovider_Test" hash-for-method="userdetails(Hello123, 26589565)">userdetails(Hello123, 26589565)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.TestNG.Convert_Testng$Covert" hash-for-method="Method">Method</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.TestNG.Convert_Testng$Covert" hash-for-method="frame">frame</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,23 +132,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.testng.features.Dataprovider_Test</span>
+              <span class="class-name">com.TestNG.Convert_Testng$Covert</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="userdetails(abc, 123)">
-                  </a> <!-- userdetails(abc, 123) -->
-                  <span class="method-name">userdetails</span>
-                  <span class="parameters">(abc, 123)</span>
+                  <a name="Confirmation">
+                  </a> <!-- Confirmation -->
+                  <span class="method-name">Confirmation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="userdetails(Hello123, 26589565)">
-                  </a> <!-- userdetails(Hello123, 26589565) -->
-                  <span class="method-name">userdetails</span>
-                  <span class="parameters">(Hello123, 26589565)</span>
+                  <a name="Method">
+                  </a> <!-- Method -->
+                  <span class="method-name">Method</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="frame">
+                  </a> <!-- frame -->
+                  <span class="method-name">frame</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse--2038316039\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Lenovo\AppData\Local\Temp\testng-eclipse-2072705016\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +170,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.testng.features.Dataprovider_Test&quot;/&gt;
+      &lt;class name=&quot;com.TestNG.Convert_Testng&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,20 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'userdetails')
-data.setCell(0, 2, 'com.testng.features.Dataprovider_Test')
-data.setCell(0, 3, 28);
+data.setCell(0, 1, 'Confirmation')
+data.setCell(0, 2, 'com.TestNG.Convert_Testng$Covert')
+data.setCell(0, 3, 19367);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'userdetails')
-data.setCell(1, 2, 'com.testng.features.Dataprovider_Test')
-data.setCell(1, 3, 4);
+data.setCell(1, 1, 'frame')
+data.setCell(1, 2, 'com.TestNG.Convert_Testng$Covert')
+data.setCell(1, 3, 9037);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Method')
+data.setCell(2, 2, 'com.TestNG.Convert_Testng$Covert')
+data.setCell(2, 3, 4829);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 ms</span>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -237,18 +253,55 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.testng.features.Dataprovider_Test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">userdetails(abc, 123)</span>
+              <div class="chronological-class-name">com.TestNG.Convert_Testng$Covert</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">SignIn</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">test_starting</span>
+                <span class="method-start">13680 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">userdetails(Hello123, 26589565)</span>
-                <span class="method-start">45 ms</span>
+                <span class="method-name">Method</span>
+                <span class="method-start">13684 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">test_ending</span>
+                <span class="method-start">18521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test_starting</span>
+                <span class="method-start">18529 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">frame</span>
+                <span class="method-start">18530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">test_ending</span>
+                <span class="method-start">27569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">test_starting</span>
+                <span class="method-start">27571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Confirmation</span>
+                <span class="method-start">27572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">test_ending</span>
+                <span class="method-start">46945 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">Close</span>
+                <span class="method-start">46947 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>

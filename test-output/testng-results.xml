@@ -1,45 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="260" started-at="2022-01-05T22:58:15 IST" finished-at="2022-01-05T22:58:16 IST">
+  <suite name="Default suite" duration-ms="48220" started-at="2022-01-16T23:09:31 IST" finished-at="2022-01-16T23:10:19 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="260" started-at="2022-01-05T22:58:15 IST" finished-at="2022-01-05T22:58:16 IST">
-      <class name="com.testng.features.Dataprovider_Test">
-        <test-method status="PASS" signature="userdetails(java.lang.String, int)[pri:0, instance:com.testng.features.Dataprovider_Test@71bbf57e]" name="userdetails" duration-ms="28" started-at="2022-01-05T22:58:16 IST" data-provider="test_Data" finished-at="2022-01-05T22:58:16 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="48220" started-at="2022-01-16T23:09:31 IST" finished-at="2022-01-16T23:10:19 IST">
+      <class name="com.TestNG.Convert_Testng$Covert">
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="SignIn" is-config="true" duration-ms="13553" started-at="2022-01-16T23:09:31 IST" finished-at="2022-01-16T23:09:45 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userdetails -->
-        <test-method status="PASS" signature="userdetails(java.lang.String, int)[pri:0, instance:com.testng.features.Dataprovider_Test@71bbf57e]" name="userdetails" duration-ms="4" started-at="2022-01-05T22:58:16 IST" data-provider="test_Data" finished-at="2022-01-05T22:58:16 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Hello123]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[26589565]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="test_starting()[pri:0, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="test_starting" is-config="true" duration-ms="1" started-at="2022-01-16T23:09:45 IST" finished-at="2022-01-16T23:09:45 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userdetails -->
-      </class> <!-- com.testng.features.Dataprovider_Test -->
+        </test-method> <!-- test_starting -->
+        <test-method status="PASS" signature="Method()[pri:0, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="Method" duration-ms="4829" started-at="2022-01-16T23:09:45 IST" finished-at="2022-01-16T23:09:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method -->
+        <test-method status="PASS" signature="test_ending()[pri:0, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="test_ending" is-config="true" duration-ms="1" started-at="2022-01-16T23:09:50 IST" finished-at="2022-01-16T23:09:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ending -->
+        <test-method status="PASS" signature="test_starting()[pri:0, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="test_starting" is-config="true" duration-ms="1" started-at="2022-01-16T23:09:50 IST" finished-at="2022-01-16T23:09:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_starting -->
+        <test-method status="PASS" signature="frame()[pri:1, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="frame" duration-ms="9037" started-at="2022-01-16T23:09:50 IST" finished-at="2022-01-16T23:09:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frame -->
+        <test-method status="PASS" signature="test_ending()[pri:0, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="test_ending" is-config="true" duration-ms="1" started-at="2022-01-16T23:09:59 IST" finished-at="2022-01-16T23:09:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ending -->
+        <test-method status="PASS" signature="test_starting()[pri:0, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="test_starting" is-config="true" duration-ms="0" started-at="2022-01-16T23:09:59 IST" finished-at="2022-01-16T23:09:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_starting -->
+        <test-method status="PASS" signature="Confirmation()[pri:2, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="Confirmation" duration-ms="19367" started-at="2022-01-16T23:09:59 IST" finished-at="2022-01-16T23:10:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Confirmation -->
+        <test-method status="PASS" signature="test_ending()[pri:0, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="test_ending" is-config="true" duration-ms="1" started-at="2022-01-16T23:10:18 IST" finished-at="2022-01-16T23:10:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ending -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.TestNG.Convert_Testng$Covert@4bd31064]" name="Close" is-config="true" duration-ms="1197" started-at="2022-01-16T23:10:18 IST" finished-at="2022-01-16T23:10:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.TestNG.Convert_Testng$Covert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
